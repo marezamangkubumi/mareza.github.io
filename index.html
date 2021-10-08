@@ -31,7 +31,7 @@ var k;
 for (i=0; i<arr.length; i++){
  k = Math.round(Math.random() * (arr.length - i - 1)) + i;
  temp = arr[i];arr[i]=arr[k];arr[k]=temp;
-}
+} 
 return arr;
 }
 tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
